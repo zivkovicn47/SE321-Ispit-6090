@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(winget --version 2>&1; Write-Host \"---\"; \\(Get-Command choco -ErrorAction SilentlyContinue\\) -ne $null)",
+      "PowerShell(winget install Apache.Maven --accept-source-agreements --accept-package-agreements)",
+      "PowerShell(winget search maven 2>&1)",
+      "PowerShell(winget search \"OpenJDK 21\" 2>&1)",
+      "PowerShell(winget search \"Temurin 21\" 2>&1)",
+      "PowerShell(winget search \"jdk\" 2>&1)",
+      "PowerShell(winget install Amazon.Corretto.21.JDK --accept-source-agreements --accept-package-agreements 2>&1)",
+      "PowerShell(Invoke-RestMethod -Uri \"http://localhost:8080/api/articles\" -Method Get)"
+    ]
+  }
+}

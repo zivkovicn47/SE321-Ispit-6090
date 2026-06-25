@@ -1,0 +1,11 @@
+Specifikacija aplikacije:
+Potrebno je razviti veb aplikaciju za potrebe prodavnice auto delova.
+Korisnici sistema dele se na zaposlene, klijente i administratore. Klijenti imaju mogućnost da se registruju, loguju ili nastave kao „gost“, dok zaposleni imaju samo mogućnost logovanja. Nove zaposlene dodaje administartor sistema, a klijeti se smatraju „gostom“ sve dok ne naprave nalog.
+Zaposleni mogu da vrše pregled naručenih ali još uvek neisporučenih, već isporučenih, i poništenih porudžbina. Poništene porudžbine su one koje nisu uspešno isporučene naručiocu. Takođe, zaposleni može da manipuliše artiklima (da ih briše, menja informacije o njima ili dodaje nove).
+Klijenti imaju sledeće funkcionalnosti: pretraga po filtru, poručivanje, plaćanje, obaveštenje i specijalno poručivanje.
+Kada je odabrao filtere, korisnik dodaje u korpu željene artikle nakon čega prelazi na plaćanje.
+Plaćanje može biti realizovano karticom ili pouzećem.
+Svi artikli su prilikom pretrage vidljivi u aplikaciji bez obzira da li su na stanju ili trenutno nisu. Ako trenutno nisu na stanju klijent može izabrati opciju “Obavesti me” i odabirom mail/telefon dobiće mail, odnosno poruku, čim taj artikal ponovo bude na stanju.
+Specijalno poručivanje je funkcionalnost koja omogućava klijentu da, ako deo koji mu treba uopšte ne postoji na sajtu, piše direktno prodavnici unoseći u formu neopodne informacije o svom automobilu kao i delu(delovima) koji su mu potrebni. Prodavnica zatim proverava sa glavnim dobavljačem da li je moguće naručiti ovaj deo i ako jeste, šalje korisniku mail sa informacijama o tome kada bi ovaj deo mogao da stigne i gde može biti preuzet.
+
+
