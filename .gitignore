@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build directories
+/backend/target/
+/frontend/dist/
+/frontend/build/
+
+# Local databases (H2)
+/backend/data/
+*.db
+*.mv.db
+*.trace.db
+
+# Playwright / Testing artifacts
+/e2e/playwright-report/
+/e2e/test-results/
+/e2e/playwright/.cache/
+/frontend/coverage/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# AI Agents config/logs
+.claude/
+.gemini/
+*.log
