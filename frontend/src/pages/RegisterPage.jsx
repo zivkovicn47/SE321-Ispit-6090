@@ -33,6 +33,7 @@ export default function RegisterPage() {
           <div className="form-group">
             <label>Korisničko ime</label>
             <input
+              data-testid="register-username"
               value={form.username}
               onChange={e => setForm({ ...form, username: e.target.value })}
               required
@@ -41,6 +42,7 @@ export default function RegisterPage() {
           <div className="form-group">
             <label>Email</label>
             <input
+              data-testid="register-email"
               type="email"
               value={form.email}
               onChange={e => setForm({ ...form, email: e.target.value })}
@@ -50,6 +52,7 @@ export default function RegisterPage() {
           <div className="form-group">
             <label>Lozinka</label>
             <input
+              data-testid="register-password"
               type="password"
               value={form.password}
               onChange={e => setForm({ ...form, password: e.target.value })}
@@ -59,6 +62,7 @@ export default function RegisterPage() {
           <div className="form-group">
             <label>Telefon (opciono)</label>
             <input
+              data-testid="register-phone"
               value={form.phone}
               onChange={e => setForm({ ...form, phone: e.target.value })}
             />

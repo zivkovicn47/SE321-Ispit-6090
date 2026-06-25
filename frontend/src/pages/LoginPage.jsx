@@ -36,6 +36,7 @@ export default function LoginPage() {
           <div className="form-group">
             <label>Korisničko ime</label>
             <input
+              data-testid="login-username"
               value={form.username}
               onChange={e => setForm({ ...form, username: e.target.value })}
               required
@@ -44,6 +45,7 @@ export default function LoginPage() {
           <div className="form-group">
             <label>Lozinka</label>
             <input
+              data-testid="login-password"
               type="password"
               value={form.password}
               onChange={e => setForm({ ...form, password: e.target.value })}
